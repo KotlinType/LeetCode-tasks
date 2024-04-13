@@ -14,9 +14,9 @@ fun isValid(s: String): Boolean {
 }
 
 private fun recursive(s: String): Boolean {
-    if (s == "") { return true }
+    if (s == "") return true
     val simplified = s.replace("()", "").replace("{}", "").replace("[]", "")
-    if (simplified == s) { return false }
+    if (simplified == s) return false
     return recursive(simplified)
 }
 
