@@ -1,6 +1,5 @@
-import easy.romanToInteger
-import easy.twoSum
+import easy.longestCommonPrefix
 
 fun main() {
-    println(romanToInteger())
+    println(longestCommonPrefix(arrayOf("ab","abc")))
 }
